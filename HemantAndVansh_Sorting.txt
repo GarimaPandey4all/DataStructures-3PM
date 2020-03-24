@@ -1,0 +1,24 @@
+Sorting:
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Heap Sort
+Quick Sort
+
+ascending
+			n-1=7-1=6
+	i=0	6,4,7,98,99,9,9
+
+		4, 6, 7, 98, 99, 9
+
+		4, 6, 7, 98, 9, 99
+
+	i=1	4, 6, 7, 9, 98, 99
+
+Selection Sort:
+
+6,4,7,98,99,9,9
+
+
+
