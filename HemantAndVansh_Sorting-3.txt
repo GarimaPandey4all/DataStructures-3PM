@@ -1,0 +1,37 @@
+QuickSort:
+
+Quicksort is a divide and conquer algorithm. The steps are: 
+1) Pick an element from the array, this element is called as pivot element. 
+2) Divide the unsorted array of elements in two arrays with values less than the pivot come in the first sub array, while all elements with values greater than the pivot come in the second sub-array (equal values can go either way). This step is called the partition operation. 
+3) Recursively repeat the step 2(until the sub-arrays are sorted) to the sub-array of elements with smaller values and separately to the sub-array of elements with greater values. 
+
+Pivot
+1. Picks an element called the "pivot".
+
+Partition
+2. Rearrange the array elements in such a way that the all values lesser than the pivot should come before the pivot and all the values greater than the pivot should come after it.
+
+This method is called partitioning the array. At the end of the partition function, the pivot element will be placed at its sorted position.
+
+Recursive
+3. Do the above process recursively to all the sub-arrays and sort the elements.
+
+7, 3, 4, 2, 5, 8= pivot=0, i =5, j=4
+
+5, 3, 4, 2, 7, 8
+
+
+Heap Sort:
+
+1. Heap Tree
+
+2. create a MAX heap (parent node>= child node)
+
+3. Swap parent node with leaf node and delete the leaf node
+
+
+
+
+
+
+
