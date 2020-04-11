@@ -1,0 +1,32 @@
+Singly Linked List:
+
+Linked list is a Data Structure ued for storing collections of data.
+
+-->successive elements are connected by pointers.
+-->Last elelment points to NULL.
+-->It can grow and shrink size during the execution of a program.
+-->It does not waste memory space.
+
+node: not done with primtive data types
+
+node structure type: user defined/ customized
+
+Defined a node(data type):
+
+struct node
+{
+	int info;
+	struct node *link;
+};
+
+Linked list has following opertions:
+
+1. Insertion
+2. Deletion
+3. Traversing
+4. Searching
+
+
+
+
+
