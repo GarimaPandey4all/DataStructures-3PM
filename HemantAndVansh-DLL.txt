@@ -1,0 +1,9 @@
+Doubly Linked List:
+
+when we want to traverse in both direction.
+
+Operations:
+
+insert at start
+insert at last
+insert after a particular node
