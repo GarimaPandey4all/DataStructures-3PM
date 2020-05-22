@@ -1,0 +1,41 @@
+Trie:
+
+A trie is called a digital tree or prefix tree is a kind of 
+search tree an ordered tree data structure.
+
+It is used to store dynamic set or associative array where the
+keys are usually string.
+
+It is a tree that stores strings. Maximum number of children of
+a node is equal to size of alphabet. 
+
+Trie supports search, insert, delete operations in O(L) 
+where L is the length of key.
+
+Hashing:
+
+In hashing we can convert key to a small value and the value 
+is used to index data. Hashing supports search, insert and 
+delete operations in O(L) time on average.
+
+Advantage of Trie:
+
+1. It is faster than hashing because of the ways it is
+implemented. we do not need to compute any hash function.
+No collision handling is required.
+
+2. We can easily print all words in alphabetical order in
+which is not easily possible with hashing.
+
+3. We can efficiently do prefix search with trie.
+
+Disadvantages of  Trie:
+
+1. A lot of memory required for storing the strings.
+because of each node have too many node pointers.
+
+Huffman Coding:
+
+Huffman coding algorithm was invented by david huffman in 1952.
+
+Lossless Data Compression Technique: ZIP file and media files
