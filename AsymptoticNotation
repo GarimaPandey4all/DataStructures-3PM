@@ -1,0 +1,61 @@
+Analysis of Algorithms:
+
+Analysis of Algorithms is the determination the amount of time and space resource required to execute it. 
+
+Usually the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps, known as the time complexity or volume of memory, known as space complexity.
+
+Asymptotic Analysis of Algorithms:
+
+Refers defining the mathematical boundation/framing of its runtime performance. 
+
+Evaluate the performance of an algorithm in terms of input size.
+
+Analysis Types:
+
+1. Best Case
+2. Average Case
+3. Worst Case
+
+Hashing: O(1) : Average Case
+Tries: O(L) : Best Case
+
+linear search: 1, 3, 6, 9, 10
+
+Asymptotic Notation:
+
+1. Big O: Worst case : Upper bound
+2. Big - Omega: Best case : Lower bound
+3. small - o: Worst case Upper bound
+4. Small-omega(w): best case : Lower bound
+5. Theta: average case 
+
+
+Algorithm				Time Complexity
+
+						Best 		Average			Worst
+
+Selection Sort			Big Omega	Theta(n^2)		O(n ^ 2)
+						(n ^ 2)
+						
+						
+Bubble Sort				Big Omega	Theta(n^2)		O(n ^ 2)
+						(n)
+						
+						
+Insertion Sort			Big Omega	Theta(n^2)		O(n ^ 2)
+						(n)
+						
+Heap Sort				Big Omega	Theta(nlog(n))	O(nlog(n))
+						(n(Log(n)))
+						
+Quick Sort				Big Omega	Theta(nlog(n))	O(n ^ 2)
+						(n(Log(n)))
+						
+Merge Sort				Big Omega	Theta(nlog(n))	O(nlog(n))
+						(n(Log(n)))
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Infix, Prefix and Postfix:
+
+Application of stack data structure:
+
+Infix: 
+
+A + B * C/D
+
+Order Precedence:
+
+1. ()[]
+2. Exponential (^): R to L
+3. Mul And Div: L to R
+4. Add and Sub: L to R
+
+Infix			  Prefix: Polish Notation			Postfix: Reverse Polish
+
+
+1. A+B*C+D					++A*BCD							ABC*+D+
+
+2.(A+B)*(C+D)				*+AB+CD							AB+CD+*
+
+3. A*B+C*D					+*AB*CD							AB*CD*+
+
+4. A+B+C+D					+++ABCD						    AB+C+D+
+
+5. (A+B)*C/D				/*+ABCD							AB+C*D/
